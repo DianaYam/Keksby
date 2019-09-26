@@ -1,0 +1,291 @@
+/*  Типовые заголовки и кнопки  */
+
+@media screen and (max-width:850px) {
+    .typical-header__text{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+    .typical-header__button{
+        float: none;
+        margin: 20px auto 0 auto;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .typical-header__button{
+        padding:10px 0;
+        width:150px;
+    }
+}
+
+/*  header  */
+
+@media screen and (max-width:1027px){
+    .horizontal-navigation{
+        order:3;
+        width:100%;
+        display:block;
+    }
+    .order-link{
+        order:2;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .horizontal-navigation__list{
+        padding:0 10px;
+    }
+        .horizontal-navigation__link{
+            padding:10px 15px;
+        }
+}
+
+@media screen and (max-width:530px) {
+    .header__content{
+        width:100%;
+    }
+    .logo{
+        width:100%;
+        display:block;
+    }
+        .logo__img{
+            display:block;
+            margin:0 auto;
+        }
+    .header__order-link{
+        display:none;
+    }
+    .header__order-link_not-vizible{
+        visibility: visible;
+        display: block;
+        padding: 10px 0;
+        width: 150px;
+        position: absolute;
+        left: calc(50% - 77px);
+        top:75%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .horizontal-navigation__link{
+        font-size:0.8em;
+    }
+}
+
+/*  advantages  */
+
+@media screen and (max-width:1027px) {
+    .advantage{
+        border-right:1px solid transparent;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .advantage{
+        flex-basis:310px;
+        margin:50px 15px 0 15px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .advantage{
+        margin:50px 0 0 0;
+    }
+        .advantage__header{
+            /*font-size: 1.7em;*/
+        }
+}
+
+@media screen and (max-width:390px) {
+    .advantage{
+        flex-basis:calc(100% - 20px);
+    }
+}
+
+/*  theory  */
+
+@media screen and (max-width:1130px) {
+    .article{
+        width:100%;
+        margin-top:30px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .article{
+        margin-top:20px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .article__img{
+        float:none;
+        display:block;
+        margin:0 auto 10px;
+    }
+    .article__text{
+        margin-left:0;
+    }
+}
+
+/*  reviews  */
+
+@media screen and (max-width:530px) {
+    .comment-item{
+        padding:0 0 0 20px;
+        flex-basis:220px;
+    }
+}
+
+/*  popular  */
+
+@media screen and (max-width:1130px) {
+    .goods__wrapper{
+        justify-content:space-around;
+    }
+        .popular-good{
+            margin:50px 20px 0 20px;
+        }
+}
+
+@media screen and (max-width:670px) {
+    .popular-good{
+        margin:50px 0 0 0;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .popular-good{
+        flex-basis:200px;
+        min-width: 100%;
+    }
+        .good-description__name, .good-description__price{
+             float:none;
+             width:100%;
+             text-align:center;
+         }
+    .good-description__button{
+        margin:10px auto 0 auto;
+        float:none;
+    }
+}
+
+/*  price  */
+
+@media screen and (max-width:850px) {
+    .pricelist-header__text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .services{
+        font-size:12px;
+    }
+        .services__td,
+        .services__th {
+            padding: 10px 5px;
+        }
+}
+
+@media screen and (max-width:390px) {
+    .services__td,
+    .services__th {
+        padding: 5px 2px;
+    }
+}
+
+/*  feedback  */
+
+@media screen and (max-width:1130px) {
+    .feedback-header__text{
+        float:none;
+    }
+    .header-caption {
+        float:none;
+        display:block;
+        margin-top:20px;
+        line-height:1em;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .feedback-header-text, .header-caption {
+        text-align:center;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .feedback-form-wrapper{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+        .write-letters{
+            order:1;
+            padding-top:0;
+            margin-left:50px;
+            margin-right:50px;
+            flex-basis:300px;
+            flex-shrink:2;
+        }
+        .feedback-form{
+            order:2;
+            width:100%;
+            margin:50px 0 0 0;
+            flex-shrink:0;
+        }
+}
+
+@media screen and (max-width:670px) {
+    .feedback-form-group_fl-left,
+    .feedback-form-group_fl-right {
+        float:none;
+        width:calc(100% - 2px);
+    }
+    .feedback-form__submit{
+        margin:20px auto 0 auto;
+        display:block;
+    }
+}
+
+/*  footer  */
+
+@media screen and (max-width:850px){
+    .social-links-wrapper{
+        float:none;
+        text-align:center;
+    }
+    .with-love{
+        text-align:center;
+        float:none;
+        line-height:1em;
+    }
+}
+
+@media screen and (max-width:530px){
+    .footer__content{
+        position:relative;
+    }
+        .footers-header{
+            padding-bottom:135px;
+        }
+            .footers-order-link{
+                position:absolute;
+                top:120px;
+                left:calc(50% - 77px);
+                float:none;
+                margin-top: 30px;
+                padding: 10px 0;
+                width: 150px;
+            }
+        .social-links-header{
+            margin-right:0;
+        }
+        .social-links{
+            display:block;
+            margin:10px auto 0 auto;
+        }
+}
